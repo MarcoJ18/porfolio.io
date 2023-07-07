@@ -9,7 +9,7 @@ import Cards from "../components/Cards.astro";
 <section>
     <ul role="list" class="grid grid-cols-3 gap-4 m-5">
         <Cards
-            img="/assets/proyect1.webp"
+            img=`${import.meta.env.SITE}${import.meta.env.BASE_URL}assets/proyect1.webp`
             href="https://marcoj18.github.io/automate-work.io/"
             title="Policy generator"
             body="This proyect is about to generate policy automate in spanish to make more easy my work"
